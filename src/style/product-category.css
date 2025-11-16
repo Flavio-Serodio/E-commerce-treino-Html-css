@@ -1,0 +1,54 @@
+.categorias-section{
+    background-color: blueviolet;
+    width: 100%;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 40px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.category-name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: 2;
+    font-size: 1.25rem;
+    color: #ffffff;
+    font-weight: 500;
+    border: 1px solid #ffffff;
+}
+
+.categoria-card{
+    position: relative;
+    width: 317px;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0,0,0,0.25);
+    z-index: 1;
+}
+
+.casual{
+    background: url(../images/products/casual.jpg) no-repeat center;
+    background-size: cover;
+}
+.esporte{
+    background: url(../images/products/esporte.jpg) no-repeat center;
+    background-size: cover;
+}
+.moderno{
+    background: url(../images/products/moderno.jpg) no-repeat center;
+    background-size: cover;
+}
+.futurista{
+    background: url(../images/products/futurista.jpg) no-repeat center;
+    background-size: cover;
+}   
