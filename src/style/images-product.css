@@ -1,0 +1,76 @@
+.product-section{
+    margin-top: 80px;
+}
+.images-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas: "sexo sexo product1 product1"
+                         "sexo sexo product3 product4"
+                         "product2 product2 product3 product5";
+    gap: 30px;
+    padding: 40px 0;
+}
+.destaque{
+    grid-area: sexo;
+    background: url(../images/hero.jpg) no-repeat 20% center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.card-title{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.card-subtitle{
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.sexo-buttons{
+    display: flex;
+    gap: 0.7rem;
+}
+.product-sexo-title{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.card{
+    border-radius: 20px;
+}
+
+.product1{
+    grid-area: product1;
+    background: url(/src/images/products/product1.jpg) no-repeat center;
+    background-size: cover;
+}
+.product2{
+background-color: aquamarine;
+grid-area: product2;
+background: url(/src/images/products/ztênis\ preto\ azul.jpg) no-repeat center;
+background-size: cover;
+}
+.product3{
+    background-color: azure;
+    grid-area: product3;
+    background: url(/src/images/products/model.jpg) no-repeat center;
+    background-size: cover;
+}
+.product4{
+    background-color: beige;
+    grid-area: product4;
+    background: url(/src/images/products/product4.jpg) no-repeat center;
+    background-size: cover;
+}
+.product5{
+    grid-area: product5;
+    background: url(/src/images/products/cinza.jpg) no-repeat center;
+    background-size: cover;
+}

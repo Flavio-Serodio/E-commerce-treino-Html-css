@@ -1,0 +1,79 @@
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    font-size: 0.875rem; /* 14px */
+    padding: 0 2.5rem; /* 40px */
+    width: 100%;
+}
+
+.footer-top {
+    display: flex;
+    padding: 2.5rem; /* 40px */
+    justify-content: space-between;
+    max-width: 85rem; /* 1360px */
+    margin: 0 auto;
+}
+.footer-bottom{
+    padding:  1.25rem 0; /* 20px */
+}
+.footer-bottom p{
+    text-align: center;
+    font-size: 1.25rem; /* 20px */
+}
+
+.footer-columns {
+    display: flex;
+    gap: 1.1875rem; /* 19px */
+}
+
+.newsletter{
+    max-width:21.5rem ;
+}
+ul{
+    margin: 0 0.9375rem; /* 15px */
+}
+ul li{
+    margin-bottom: 1rem; /* 16px */
+    text-align: left;
+}
+
+ul li strong {
+    font-size: 1.25rem; /* 20px */
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.5rem; /* 24px */
+}
+
+ul li a {
+    font-size: 1.25rem; /* 20px */
+    color: #fff;
+    font-weight: 200;
+    line-height: 1.5rem; /* 24px */
+}
+ul li a:hover {
+    text-decoration: underline;
+}
+
+form{
+    margin-bottom: 1.875rem; /* 30px */
+}
+.newsletter input[type="email"] {
+    width: 21.5rem; /* 344px */
+    padding: 0.75rem 1.25rem; /* 12px 20px */
+    margin-bottom: 1.875rem; /* 30px */
+    border: none;
+    border-radius: 1.875rem; /* 30px */
+}
+.social-span{
+    font-size: 1.25rem; /* 20px */
+    font-weight: 300;
+}
+.social-icons {
+    display: flex;
+    gap: 1.25rem; /* 20px */
+    padding: 1rem 0; /* 16px 0 */
+}
+.social-icons a:hover{
+    opacity: 0.7;
+}
+

@@ -1,8 +1,15 @@
+main{
+    padding: 2.5rem 0 0 0  ;
+    max-width: 1360px;
+    margin: 0 auto;
+}
 .hero-section {
     background: url('../images/hero.jpg') no-repeat center;
     background-size: cover;
     height: 500px;
+    width: 100%;
     position: relative;
+    border-radius: 20px;
 }
 
 .hero-overlay{
