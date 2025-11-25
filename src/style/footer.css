@@ -77,3 +77,20 @@ form{
     opacity: 0.7;
 }
 
+@media(max-width:1000px){
+    .site-footer{
+        padding: 0;
+    }
+    .footer-top{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 40px 20px 0;
+    }
+    .footer-columns{
+        flex-direction: column;
+    }
+    .footer-bottom{
+        font-size: 1rem;
+        padding: 1.5rem;
+    }
+}

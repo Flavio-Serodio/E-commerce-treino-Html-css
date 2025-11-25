@@ -1,6 +1,3 @@
-.product-section{
-    margin-top: 80px;
-}
 .images-products {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -74,3 +71,27 @@ background-size: cover;
     background: url(/src/images/products/cinza.jpg) no-repeat center;
     background-size: cover;
 }
+@media(max-width:768px){
+    .images-products{
+        grid-template-columns: 1fr  1fr;
+        grid-template-rows: repeat(5,auto);
+        grid-template-areas: "sexo sexo"
+                            "product2 product2"
+                            "product3 product4"
+                            "product3 product5"
+                            "product1 product1";
+        gap: 10px;
+        padding: 10px 0;
+    }
+    .destaque{
+        height: 500px;
+    }
+    .product1{
+        height: 200px;
+    }
+    .product2{
+        min-height: 200px;
+    }
+    .product3{
+        min-height: 390px;
+    }
